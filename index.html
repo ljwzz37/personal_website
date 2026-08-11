@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>你的姓名 - 个人主页</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="profile-layout">
+      <div>
+        <div class="avatar" aria-label="人像占位">人像位置</div>
+        <p class="portrait-note">左上角预留个人照片位置</p>
+      </div>
+      <div>
+        <p class="eyebrow">个人主页 / GitHub Pages 示例</p>
+        <h1>你的姓名</h1>
+        <p class="summary">
+          计算机科学与技术学生，关注人工智能、后端开发与数据驱动应用。这里可以替换为你的研究方向、求职目标、项目经历概述，或当前正在系统学习的内容。
+        </p>
+        <nav class="nav" aria-label="页面导航">
+          <a href="#about">关于我</a>
+          <a href="#education">学习经历</a>
+          <a href="#projects">项目经历</a>
+          <a href="#skills">技能</a>
+          <a href="#contact">联系方式</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="about">
+        <div class="section-header">
+          <h2>关于我</h2>
+          <p class="section-note">About</p>
+        </div>
+        <p class="about">
+          我正在系统学习算法、机器学习与软件工程实践，喜欢把复杂问题拆解成清晰、可实现的模块。当前重点关注多模态学习、智能应用开发和后端系统设计，也在持续整理论文阅读、项目复盘与技术笔记。
+        </p>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section-header">
+          <h2>学习经历</h2>
+          <p class="section-note">Education</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="time">2022 - 2026</div>
+            <div>
+              <h3>某某大学 / 计算机科学与技术</h3>
+              <p>主修数据结构、操作系统、计算机网络、数据库系统、机器学习等课程，参与课程项目与科研训练。</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="time">2024 - 至今</div>
+            <div>
+              <h3>人工智能方向 / 文献阅读与实验复现</h3>
+              <p>围绕多视图聚类、表示学习和深度学习模型开展阅读记录，尝试复现实验流程，并总结方法优缺点。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-header">
+          <h2>项目经历</h2>
+          <p class="section-note">Projects</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div>
+              <h3>智能学习笔记系统</h3>
+              <p>一个用于整理课程笔记、论文摘要和知识标签的个人知识库示例项目。</p>
+              <div class="project-meta">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">SQLite</span>
+              </div>
+            </div>
+            <p class="result">亮点：支持按主题检索、标签归档和 Markdown 内容展示。</p>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <h3>多视图聚类论文阅读</h3>
+              <p>围绕近期论文建立阅读清单，整理方法框架、实验设置和可复现思路。</p>
+              <div class="project-meta">
+                <span class="tag">Deep Learning</span>
+                <span class="tag">Clustering</span>
+                <span class="tag">PyTorch</span>
+              </div>
+            </div>
+            <p class="result">亮点：形成结构化综述，便于后续实验和开题材料沉淀。</p>
+          </article>
+
+          <article class="project-card">
+            <div>
+              <h3>个人作品展示网站</h3>
+              <p>基于 GitHub Pages 的静态个人主页，用于展示学习经历、项目经历和联系方式。</p>
+              <div class="project-meta">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">GitHub Pages</span>
+              </div>
+            </div>
+            <p class="result">亮点：无需构建工具，上传仓库后即可作为个人主页发布。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-header">
+          <h2>技能</h2>
+          <p class="section-note">Skills</p>
+        </div>
+        <div class="skills">
+          <article class="skill-group">
+            <h3>编程语言</h3>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Java</span>
+              <span class="tag">C++</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </article>
+          <article class="skill-group">
+            <h3>后端开发</h3>
+            <div class="skill-tags">
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Redis</span>
+              <span class="tag">REST API</span>
+            </div>
+          </article>
+          <article class="skill-group">
+            <h3>人工智能</h3>
+            <div class="skill-tags">
+              <span class="tag">PyTorch</span>
+              <span class="tag">机器学习</span>
+              <span class="tag">聚类算法</span>
+              <span class="tag">论文复现</span>
+            </div>
+          </article>
+          <article class="skill-group">
+            <h3>工具链</h3>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Markdown</span>
+              <span class="tag">Docker</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-header">
+          <h2>联系方式</h2>
+          <p class="section-note">Contact</p>
+        </div>
+        <div class="contact-list">
+          <a href="mailto:your.email@example.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">your.email@example.com</span>
+          </a>
+          <a href="https://github.com/yourname">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/yourname</span>
+          </a>
+          <a href="https://yourname.github.io">
+            <span class="contact-label">Blog</span>
+            <span class="contact-value">yourname.github.io</span>
+          </a>
+          <a href="https://www.linkedin.com/in/yourname">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/yourname</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 你的姓名. Built with HTML and CSS.
+    </footer>
+  </div>
+</body>
+</html>
